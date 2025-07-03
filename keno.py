@@ -27,7 +27,7 @@ from sklearn.multioutput import MultiOutputClassifier
 
 # Command-line args
 parser = argparse.ArgumentParser()
-parser.add_argument("--uri", type=str, default="wss://keno-nrg1.atlas-v.com/gamesocket/", help="WebSocket URI")
+parser.add_argument("--uri", type=str, default="gamesocket/", help="WebSocket URI")
 parser.add_argument("--history", type=int, default=50, help="Historical draws to analyze")
 parser.add_argument("--hot-lookback", type=int, default=15, help="Lookback for hot numbers")
 parser.add_argument("--cold-threshold", type=int, default=10, help="Threshold for cold numbers")
