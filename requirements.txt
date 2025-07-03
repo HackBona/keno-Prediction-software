@@ -1,1 +1,9 @@
 
+websockets
+numpy
+pandas
+PyQt6
+scikit-learn
+xgboost
+joblib
+scipy
