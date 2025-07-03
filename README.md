@@ -20,3 +20,12 @@ Ogeeyyii taphni Keno akkamitti hojjetu qorachuuf.
 Barattoota Machine Learning sirna taphni Keno hojjechuu irraa barachuu barbaadan.
 
 Hojii qorannoo fi taphataa dhuunfaaaf yaalii tilmaamaa.
+# Step 1: Create virtual environment folder
+python -m venv venv
+
+# Step 2: Activate the environment
+# ▶ For Windows
+venv\Scripts\activate
+
+# ▶ For macOS/Linux
+source venv/bin/activate
